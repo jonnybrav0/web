@@ -1,0 +1,119 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+.header1 {
+    background-color: white;
+    color: darkgreen;
+    text-align: center;
+    margin: 0;
+    padding: 1em ;
+}
+.menu1 {
+    height: 2em;
+    width: 100%;
+    background-color: #33691e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
+.menu1 ul {
+    border: 2px solid darkgreen;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu1 li {
+
+    transition: 1s;
+    padding: .5em 1em;
+    color: black;
+    cursor: pointer;
+    background-color:#9ccc65;
+}
+.menu1 li:hover {
+    background-color: #a20d0d;
+    font-size: 20px;
+    transition: 1s;
+}
+.iconos {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 100%;
+}
+.iconos img {
+    transition: 1s;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    color: none;
+}
+.iconos img:hover{
+    transition: 1s;
+    width: 60px;
+    height: 60px;
+}
+#seccion1{
+    padding: 2em;
+    font-size: 18px;
+    margin-top: 2em;
+    margin: auto;
+    width: 90%;
+    height: auto;
+    background-color: #9ccc65;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 2em;
+}
+h2{
+    text-align: center;
+    color: darkred;
+}
+#seccion2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1em;
+    font-size: 18px;
+    padding: 2em;
+    border-radius: 5px;
+    margin: 1em auto 1em auto;
+    background-color: #9ccc65;
+    width: 90%;
+    text-align: justify;
+}
+
+#seccion2 img {
+    height: 300px;
+    width: auto;
+    flex-shrink: 0;
+    border-radius: 5px;
+}
+
+#seccion2 .contenido {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+#seccion2 h3 {
+    margin-top: 0;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+#seccion2 p {
+    margin: 0;
+    line-height: 1.6;
+}
+.pie {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: #9ccc65;
+}
